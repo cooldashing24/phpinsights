@@ -159,14 +159,14 @@ This sniff checks the size of functions
 ```
 </details>
 
-**Insight Class v2.0**: `SlevomatCodingStandard\Sniffs\Files\FunctionLengthSniff`
+**Insight Class v2.0**: `SlevomatCodingStandard\Sniffs\Functions\FunctionLengthSniff`
 
 <details>
     <summary>Configuration</summary>
 
 ```php
-\SlevomatCodingStandard\Sniffs\Files\FunctionLengthSniff::class => [
-    'maxLength' => 20,
+\SlevomatCodingStandard\Sniffs\Functions\FunctionLengthSniff::class => [
+    'maxLinesLength' => 20,
 ]
 ```
 </details>
